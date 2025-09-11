@@ -1,0 +1,15 @@
+C:\Users\aluno\Desktop\diotgotemp\Csharp_IntermediateLevel\obj\Debug\net8.0\Csharp_IntermediateLevel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aluno\Desktop\diotgotemp\Csharp_IntermediateLevel\obj\Debug\net8.0\Csharp_IntermediateLevel.AssemblyInfoInputs.cache
+C:\Users\aluno\Desktop\diotgotemp\Csharp_IntermediateLevel\obj\Debug\net8.0\Csharp_IntermediateLevel.AssemblyInfo.cs
+C:\Users\aluno\Desktop\diotgotemp\Csharp_IntermediateLevel\obj\Debug\net8.0\Csharp_IntermediateLevel.csproj.CoreCompileInputs.cache
+C:\Users\aluno\Desktop\diotgotemp\Csharp_IntermediateLevel\obj\Debug\net8.0\Csharp_IntermediateLevel.sourcelink.json
+C:\Users\aluno\Desktop\diotgotemp\Csharp_IntermediateLevel\bin\Debug\net8.0\Csharp_IntermediateLevel.exe
+C:\Users\aluno\Desktop\diotgotemp\Csharp_IntermediateLevel\bin\Debug\net8.0\Csharp_IntermediateLevel.deps.json
+C:\Users\aluno\Desktop\diotgotemp\Csharp_IntermediateLevel\bin\Debug\net8.0\Csharp_IntermediateLevel.runtimeconfig.json
+C:\Users\aluno\Desktop\diotgotemp\Csharp_IntermediateLevel\bin\Debug\net8.0\Csharp_IntermediateLevel.dll
+C:\Users\aluno\Desktop\diotgotemp\Csharp_IntermediateLevel\bin\Debug\net8.0\Csharp_IntermediateLevel.pdb
+C:\Users\aluno\Desktop\diotgotemp\Csharp_IntermediateLevel\obj\Debug\net8.0\Csharp_IntermediateLevel.dll
+C:\Users\aluno\Desktop\diotgotemp\Csharp_IntermediateLevel\obj\Debug\net8.0\refint\Csharp_IntermediateLevel.dll
+C:\Users\aluno\Desktop\diotgotemp\Csharp_IntermediateLevel\obj\Debug\net8.0\Csharp_IntermediateLevel.pdb
+C:\Users\aluno\Desktop\diotgotemp\Csharp_IntermediateLevel\obj\Debug\net8.0\Csharp_IntermediateLevel.genruntimeconfig.cache
+C:\Users\aluno\Desktop\diotgotemp\Csharp_IntermediateLevel\obj\Debug\net8.0\ref\Csharp_IntermediateLevel.dll
