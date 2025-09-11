@@ -5,6 +5,14 @@ using System.Threading.Tasks;
 
 namespace Csharp_IntermediateLevel.Models
 {
+
+    //obs: a classe public permite que qualquer um consegue acessar
+    //obs: public string nome significa que qualquer um consegue acessar essa propriedade
+    //o private só pode ser acessado dentro da própria classe. É usado para 
+    //...realizar validação antes que o valor seja atribuído
+    //diferença entre campo e propriedade...
+    //campo: não tem get/set - apenas armazena
+    //propriedade: tem get e/ou set
     public class Pessoa
     {
         private string _nome;
@@ -34,10 +42,8 @@ namespace Csharp_IntermediateLevel.Models
         }
         public int Idade
         {
-            get
-            {
-                return _idade;
-            }
+            get => _idade;
+
             set
             {
                 if (value < 0 || value > 200)
