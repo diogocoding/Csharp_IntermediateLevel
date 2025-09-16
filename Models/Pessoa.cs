@@ -15,6 +15,15 @@ namespace Csharp_IntermediateLevel.Models
     //propriedade: tem get e/ou set
     public class Pessoa
     {
+        public Pessoa()
+        {
+
+        }
+        public Pessoa(string nome, string sobrenome)
+        {
+            this.Nome = nome;
+            this.Sobrenome = sobrenome;
+        }
         private string _nome;
         private int _idade;
         public string Nome
