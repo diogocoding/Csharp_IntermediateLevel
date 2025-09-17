@@ -132,3 +132,44 @@ namespace Csharp_IntermediateLevel.Models
 
 
 ✅ Agora você tem um guia completo, didático e formatado corretamente para explicar conceitos essenciais de C# com foco em POO, encapsulamento e propriedades.
+
+
+---
+
+Resumo sobre Manipulação de Valores em C#
+A correta manipulação e formatação de valores são essenciais para exibir dados de forma clara e consistente para o usuário. Em C#, isso é feito através de métodos e classes específicas para strings, números e datas.
+
+1. Manipulação de Strings
+Existem diversas formas de se trabalhar com textos em C#. As mais comuns são:
+
+Concatenação: Unir duas ou mais strings usando o operador +.
+
+Interpolação: Uma forma mais moderna e legível de embutir variáveis diretamente em uma string, prefixando-a com o símbolo $.
+
+2. Formatação de Números e Moeda
+É possível formatar valores numéricos para diferentes representações, como valores monetários, porcentagens ou padrões personalizados.
+
+Valores Monetários: Para garantir a precisão, utiliza-se o tipo decimal. É possível formatá-lo para um padrão numérico com casas decimais, como usar .ToString("N2") para exibir um valor como 1.582,40.
+
+Porcentagens: Valores do tipo double ou decimal podem ser exibidos como porcentagem. Por exemplo, o valor 0.3421 pode ser formatado com .ToString("P") para ser exibido como 34,21%.
+
+Formatação Numérica Personalizada: Você pode aplicar máscaras customizadas. Um número inteiro como 123456 pode ser formatado com .ToString("##-##-##") para ser exibido como 12-34-56.
+
+3. Manipulação de Datas e Horas (DateTime)
+O C# oferece ferramentas robustas para formatar e converter (fazer o "parse") de datas e horas.
+
+Formatando Datas: Para exibir um objeto DateTime, utiliza-se o método .ToString() com uma string de formato. Por exemplo, data.ToString("dd/M/yyyy HH:mm") formata a data e hora para o padrão dia/mês/ano e hora:minuto.
+
+
+Convertendo Strings para DateTime com TryParse: Para converter uma string em um objeto DateTime de forma segura (sem gerar erros que travam o programa), usa-se o método DateTime.TryParseExact. Ele é ideal quando se espera um formato exato para a data na string, como 
+
+"yyyy-MM-dd HH:mm".
+
+Validando a Conversão: O TryParseExact retorna um valor booleano (true ou false) que indica se a conversão foi bem-sucedida. É fundamental sempre verificar esse retorno com uma estrutura if. Se a conversão falhar, a variável de data receberá seu valor padrão, que é 
+
+01/01/0001 00:00:00.
+
+4. A Importância da Cultura (Localization)
+A formatação de datas, moedas e números pode variar entre diferentes países e regiões.
+
+Alterando a Cultura: É possível definir uma "cultura" padrão para toda a aplicação. Por exemplo, para usar os padrões brasileiros (como a vírgula para casas decimais), pode-se definir CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("pt-BR"). Isso garante que a formatação seja consistente e adequada ao público-alvo.
