@@ -2,7 +2,81 @@
 using System.Globalization;
 
 
-(int, string, string, decimal) tuplinha = (1, "diogo", "nascimento", 1.5M);
+
+
+int numero = 7;
+bool ehPar = false;
+
+ehPar = numero % 2 == 0;
+
+Console.WriteLine($"Onumero{numero} é "+ (ehPar ? "par" : "ímpar"));
+
+
+/*
+if (numero % 2 == 0)
+{
+    Console.WriteLine($"O numero {numero} é par");
+}
+else
+{
+    Console.WriteLine($"o numero {numero} é ímpar");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Pessoa p1 = new Pessoa("Leonardo", "Buta");
+
+(string nome, string sobrenome) = p1;
+
+Console.WriteLine($"{nome} {sobrenome}");
+
+
+
+
+
+
+
+/*LeituraArquivo arquivo = new LeituraArquivo();
+//o "var" serve para que vc não precise passar o tipo da variável, ele já identifica sozinho
+//caso não formos precisar de um dos retornos da tupla, podemos descartar, utilizando unteline no lugar do nome da variável
+// assim -> var (sucesso, linhasArquivo, _) = arquivo.LerArquivo("Arquivos/arquivoLeitura.txt");
+var (sucesso, linhasArquivo, quantidadeDeLinhas) = arquivo.LerArquivo("Arquivos/arquivoLeitura.txt");
+
+if (sucesso)
+{
+    Console.WriteLine("Quantidade linhas do arquivo:" + quantidadeDeLinhas);
+    foreach (string linha in linhasArquivo)
+    {
+        Console.WriteLine(linha);
+    }
+}
+else
+{
+    Console.WriteLine("Não foi possível ler o arquivo");
+}
+
+
+
+/*(int, string, string, decimal) tuplinha = (1, "diogo", "nascimento", 1.5M);
 
 
 Console.WriteLine($"id:{tuplinha.Item1}");

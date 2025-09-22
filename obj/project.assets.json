@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\here\\Csharp_IntermediateLevel\\Csharp_IntermediateLevel.csproj",
+      "projectUniqueName": "C:\\Users\\aluno\\Desktop\\Csharp_IntermediateLevel\\Csharp_IntermediateLevel.csproj",
       "projectName": "Csharp_IntermediateLevel",
-      "projectPath": "C:\\here\\Csharp_IntermediateLevel\\Csharp_IntermediateLevel.csproj",
+      "projectPath": "C:\\Users\\aluno\\Desktop\\Csharp_IntermediateLevel\\Csharp_IntermediateLevel.csproj",
       "packagesPath": "C:\\Users\\aluno\\.nuget\\packages\\",
-      "outputPath": "C:\\here\\Csharp_IntermediateLevel\\obj\\",
+      "outputPath": "C:\\Users\\aluno\\Desktop\\Csharp_IntermediateLevel\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\aluno\\AppData\\Roaming\\NuGet\\NuGet.Config"

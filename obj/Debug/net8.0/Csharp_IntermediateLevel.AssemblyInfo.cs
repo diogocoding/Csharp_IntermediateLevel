@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Csharp_IntermediateLevel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab12294888982e95c9e4baf96856234a0fd0d04e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b0950938eb3743f75af3d702bb52d0308a44343")]
 [assembly: System.Reflection.AssemblyProductAttribute("Csharp_IntermediateLevel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Csharp_IntermediateLevel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
