@@ -1,10 +1,14 @@
 ﻿using Csharp_IntermediateLevel.Models;
-using System.Globalization;
 
 
 
 
-int numero = 7;
+Venda v1 = new Venda(1, "material de escritório", 25.00M);
+
+
+
+
+/*int numero = 7;
 bool ehPar = false;
 
 ehPar = numero % 2 == 0;
