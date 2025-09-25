@@ -1,11 +1,49 @@
 ﻿using Csharp_IntermediateLevel.Models;
+using Newtonsoft.Json;
+
+
+
+string conteudoArquivo = File.ReadAllText("Arquivos/Vendas.json");
+
+List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
+
+foreach (Venda venda in listaVenda)
+{
+    Console.WriteLine($"Id: {venda.Id}, produto: {venda.Produto}, Preço: {venda.Preco}, " +
+                     $" Data: {venda.DataVenda.ToString("dd/MM/yyyy HH:mm")}");
+}
 
 
 
 
-Venda v1 = new Venda(1, "material de escritório", 25.00M);
 
 
+
+
+
+
+
+
+
+
+
+
+
+/*DateTime dataAtual = DateTime.Now;
+
+List<Venda> listaVendas = new List<Venda>();
+
+Venda v1 = new Venda(1, "material de escritório", 25.00M, dataAtual);
+Venda v2 = new Venda(1, "Licença de Software", 510.00M, dataAtual);
+
+listaVendas.Add(v1);
+listaVendas.Add(v2);
+
+string serializado = JsonConvert.SerializeObject(listaVendas, Formatting.Indented);
+
+File.WriteAllText("Arquivos/Vendas.json", serializado);
+
+Console.WriteLine(serializado);
 
 
 /*int numero = 7;
